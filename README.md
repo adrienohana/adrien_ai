@@ -1,3 +1,3 @@
 Adrien O'Hana's website. 
-Coming Soon
+Coming Soon (ish)
 ![](images/ai.png)
