@@ -162,7 +162,7 @@ export default function Home() {
               <p className="text-blue-600 dark:text-blue-400 font-medium mb-2">Effixis, an Artefact Company</p>
               <p className="text-gray-600 dark:text-gray-300 mb-3">
                 Leading AI initiatives and managing cross-functional teams. Specialized in NLP projects 
-                across luxury and defense sectors, with expertise in LLM development and deployment.
+                across multiple sectors, with expertise in LLM development and deployment.
               </p>
               <div className="grid md:grid-cols-2 gap-4 text-sm text-gray-600 dark:text-gray-400">
                 <div>
