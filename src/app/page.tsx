@@ -36,9 +36,9 @@ export default function Home() {
               <span className="text-blue-600 dark:text-blue-400">Data Scientist</span>
             </h2>
             <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 mb-6 sm:mb-8 leading-relaxed">
-              Expert in Natural Language Processing with 4+ years of experience leading AI projects 
-              across multiple sectors. Specialized in LLM development, 
-              DevOps, and scalable AI solutions.
+              Experienced AI Engineer with over 4 years of expertise in Natural Language Processing, 
+              Machine Learning, and Data Science. Proven track record of leading innovative AI projects 
+              across diverse sectors, specializing in scalable solutions, DevOps, and cutting-edge technologies.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 items-center">
               <a 
