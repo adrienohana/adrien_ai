@@ -4,12 +4,12 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800">
       {/* Navigation */}
-      <nav className="w-full px-6 py-4">
-        <div className="max-w-4xl mx-auto flex justify-between items-center">
+      <nav className="w-full px-4 sm:px-6 py-4">
+        <div className="max-w-4xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
           <h1 className="text-xl font-bold text-gray-900 dark:text-white">
             Adrien O&apos;Hana
           </h1>
-          <div className="flex gap-6">
+          <div className="flex gap-4 sm:gap-6 text-sm sm:text-base">
             <a href="#about" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-colors">
               About
             </a>
@@ -27,36 +27,36 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="max-w-4xl mx-auto px-6 py-20">
-        <div className="flex flex-col md:flex-row items-center gap-12">
-          <div className="flex-1">
-            <h2 className="text-5xl font-bold text-gray-900 dark:text-white mb-6">
+      <section className="max-w-4xl mx-auto px-4 sm:px-6 py-12 sm:py-20">
+        <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+          <div className="flex-1 text-center md:text-left">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6">
               AI Engineer &
               <br />
               <span className="text-blue-600 dark:text-blue-400">Data Scientist</span>
             </h2>
-            <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
+            <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 mb-6 sm:mb-8 leading-relaxed">
               Expert in Natural Language Processing with 4+ years of experience leading AI projects 
               across multiple sectors. Specialized in LLM development, 
               DevOps, and scalable AI solutions.
             </p>
-            <div className="flex gap-4">
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 items-center">
               <a 
                 href="#projects"
-                className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors"
+                className="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors text-center"
               >
                 View Projects
               </a>
               <a 
                 href="#contact"
-                className="border border-gray-300 hover:border-gray-400 text-gray-700 dark:text-gray-300 dark:border-gray-600 dark:hover:border-gray-500 px-6 py-3 rounded-lg font-medium transition-colors"
+                className="w-full sm:w-auto border border-gray-300 hover:border-gray-400 text-gray-700 dark:text-gray-300 dark:border-gray-600 dark:hover:border-gray-500 px-6 py-3 rounded-lg font-medium transition-colors text-center"
               >
                 Get in Touch
               </a>
             </div>
           </div>
-          <div className="flex-shrink-0">
-            <div className="relative w-64 h-64 rounded-full overflow-hidden shadow-xl">
+          <div className="flex-shrink-0 order-first md:order-last">
+            <div className="relative w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full overflow-hidden shadow-xl mx-auto">
               <Image
                 src="/adrien-ohana.jpg"
                 alt="Adrien O'Hana"
@@ -70,12 +70,12 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="bg-white dark:bg-gray-800 py-20">
-        <div className="max-w-4xl mx-auto px-6">
-          <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-8 text-center">
+      <section id="about" className="bg-white dark:bg-gray-800 py-12 sm:py-20">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-6 sm:mb-8 text-center">
             About Me
           </h3>
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 gap-6 sm:gap-8">
             <div>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
                 Expert in Natural Language Processing and Data Science with a Master&apos;s degree from EPFL 
@@ -149,9 +149,9 @@ export default function Home() {
       </section>
 
       {/* Experience Section */}
-      <section id="experience" className="py-20">
-        <div className="max-w-4xl mx-auto px-6">
-          <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-8 text-center">
+      <section id="experience" className="py-12 sm:py-20">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-6 sm:mb-8 text-center">
             Professional Experience
           </h3>
           <div className="space-y-8">
@@ -199,12 +199,12 @@ export default function Home() {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="bg-white dark:bg-gray-800 py-20">
-        <div className="max-w-4xl mx-auto px-6">
-          <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-8 text-center">
+      <section id="projects" className="bg-white dark:bg-gray-800 py-12 sm:py-20">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-6 sm:mb-8 text-center">
             Projects
           </h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
               <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">
                 Master&apos;s Thesis
@@ -270,17 +270,17 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="bg-gray-900 text-white py-20">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <h3 className="text-3xl font-bold mb-8">
+      <section id="contact" className="bg-gray-900 text-white py-12 sm:py-20">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+          <h3 className="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8">
             Let&apos;s Work Together
           </h3>
-          <p className="text-xl text-gray-300 mb-8">
+          <p className="text-lg sm:text-xl text-gray-300 mb-6 sm:mb-8">
             Interested in collaborating or have a project in mind?
           </p>
           <a 
             href="mailto:adrien@adrien.ai"
-            className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-medium transition-colors inline-block"
+            className="bg-blue-600 hover:bg-blue-700 text-white px-6 sm:px-8 py-3 rounded-lg font-medium transition-colors inline-block"
           >
             Get in Touch
           </a>
@@ -288,8 +288,8 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-gray-300 py-8">
-        <div className="max-w-4xl mx-auto px-6 text-center">
+      <footer className="bg-gray-800 text-gray-300 py-6 sm:py-8">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
           <p>&copy; 2025 Adrien O&apos;Hana. All rights reserved.</p>
         </div>
       </footer>
