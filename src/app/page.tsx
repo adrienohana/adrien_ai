@@ -139,7 +139,7 @@ export default function Home() {
                   <h5 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Languages</h5>
                   <div className="space-y-1 text-sm text-gray-600 dark:text-gray-400">
                     <p><span className="font-medium">English & French:</span> Native</p>
-                    <p><span className="font-medium">German, Portuguese, Spanish:</span> Working proficiency</p>
+                    <p><span className="font-medium">German, Portuguese, Spanish:</span> Limited working proficiency</p>
                   </div>
                 </div>
               </div>
