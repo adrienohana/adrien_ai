@@ -37,7 +37,7 @@ export default function Home() {
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
               Expert in Natural Language Processing with 4+ years of experience leading AI projects 
-              across luxury, defense, and enterprise sectors. Specialized in LLM development, 
+              across multiple sectors. Specialized in LLM development, 
               DevOps, and scalable AI solutions.
             </p>
             <div className="flex gap-4">
