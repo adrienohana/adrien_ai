@@ -13,8 +13,40 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://adrien.ai'),
   title: "Adrien O'Hana - AI Engineer Portfolio",
   description: "AI Engineer proficient in Python, machine learning, and artificial intelligence. Portfolio showcasing projects in data science, NLP, and robotics.",
+  keywords: ["AI Engineer", "Data Scientist", "Machine Learning", "NLP", "Python", "EPFL", "Effixis"],
+  authors: [{ name: "Adrien O'Hana" }],
+  openGraph: {
+    title: "Adrien O'Hana - AI Engineer Portfolio",
+    description: "AI Engineer proficient in Python, machine learning, and artificial intelligence. Portfolio showcasing projects in data science, NLP, and robotics.",
+    url: "https://adrien.ai",
+    siteName: "Adrien O'Hana Portfolio",
+    images: [
+      {
+        url: "/adrien-ohana.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Adrien O'Hana - AI Engineer",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Adrien O'Hana - AI Engineer Portfolio",
+    description: "AI Engineer proficient in Python, machine learning, and artificial intelligence.",
+    images: ["/adrien-ohana.jpg"],
+  },
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "any" }
+    ],
+    apple: "/adrien-ohana.jpg",
+  },
 };
 
 export default function RootLayout({
